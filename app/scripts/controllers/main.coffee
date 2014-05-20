@@ -7,3 +7,11 @@ angular.module('moreAngluarApp')
       'AngularJS'
       'Karma'
     ]
+  .controller 'NewPageCtrl', ($scope, $routeParams) ->
+    $scope.moreAwesome = [
+      'awesome'
+      'cool'
+      'wow'
+      
+    ]
+    $scope.params = $routeParams
